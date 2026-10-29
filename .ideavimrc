@@ -1,0 +1,76 @@
+" ~/.ideavimrc
+
+let mapleader = "\\"
+
+" ---------- Options ----------
+set scrolloff=5
+set incsearch
+set hlsearch
+set ignorecase
+set smartcase
+set showmode
+set showcmd
+set visualbell
+set timeoutlen=1000
+
+" ---------- Plugins bundled with IdeaVim ----------
+set abolish
+set CamelCaseMotion
+set classtextobj
+set commentary
+set exchange
+set functextobj
+set highlightedyank
+set textobj-indent
+set indentwise
+set matchit
+set multiple-cursors
+set NERDTree
+set vim-paragraph-motion
+set ReplaceWithRegister
+set signature
+set sneak
+set surround
+set targets
+set textobj-entire
+set textobj-line
+set textobj-user
+set VimEverywhere
+set visual-star-search
+set yankring
+set youcompleteme
+
+" Overlap with targets, which covers the same text objects (aa/ia, ab/ib, aq/iq)
+" set argtextobj
+" set mini-ai
+" Not in IdeaVim 2.47.0 yet, enable after the next release
+" set clever-f
+" set fugitive
+" set visual-multi    (then drop multiple-cursors, they overlap)
+" Writes every typed key to ~/ideavim.log
+" set keylog
+
+" ---------- Plugins that need a separate plugin from the Marketplace ----------
+" IdeaVim-EasyMotion + AceJump
+set easymotion
+" IdeaVim-Quickscope
+set quickscope
+" Which-Key
+set which-key
+" Vim AnyObject
+set anyobject
+" Vim Dial
+set dial
+" Vim FunctionTextObj
+set functiontextobj
+" Vim Peekaboo
+set peekaboo
+" Vim Switch
+set switch
+
+" ---------- Mappings ----------
+nmap <leader>bo <Action>(CloseAllEditorsButActive)
+nmap <leader>r  <Action>(Run)
+nmap <leader>d  <Action>(Debug)
+nmap <leader>br <Action>(ToggleLineBreakpoint)
+nmap <leader>n  <Action>(StepOver)
