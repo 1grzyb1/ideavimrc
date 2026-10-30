@@ -51,22 +51,24 @@ set youcompleteme
 " set keylog
 
 " ---------- Plugins that need a separate plugin from the Marketplace ----------
+" Not installed in this IDE. Install the plugin first, then uncomment its line
 " IdeaVim-EasyMotion + AceJump
-set easymotion
+" set easymotion
 " IdeaVim-Quickscope
-set quickscope
+" set quickscope
 " Which-Key
-set which-key
+" set which-key
 " Vim AnyObject
-set anyobject
+" set anyobject
 " Vim Dial
-set dial
+" set dial
 " Vim FunctionTextObj
-set functiontextobj
+" set functiontextobj
 " Vim Peekaboo
-set peekaboo
+" set peekaboo
 " Vim Switch
-set switch
+" set switch
+set ideaeditor+=chat
 
 " ---------- Mappings ----------
 nmap <leader>bo <Action>(CloseAllEditorsButActive)
@@ -74,3 +76,4 @@ nmap <leader>r  <Action>(Run)
 nmap <leader>d  <Action>(Debug)
 nmap <leader>br <Action>(ToggleLineBreakpoint)
 nmap <leader>n  <Action>(StepOver)
+nmap <leader>ns <Action>(AgentThreads.MainToolbar.NewThread)
