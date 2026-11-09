@@ -77,3 +77,18 @@ nmap <leader>d  <Action>(Debug)
 nmap <leader>br <Action>(ToggleLineBreakpoint)
 nmap <leader>n  <Action>(StepOver)
 nmap <leader>ns <Action>(AgentThreads.MainToolbar.NewThread)
+
+" ---------- Mode widget: lualine tokyonight colors ----------
+let g:widget_mode_is_full_customization_dark = 1
+let g:widget_mode_normal_background_dark = "#7aa2f7"
+let g:widget_mode_insert_background_dark = "#9ece6a"
+let g:widget_mode_visual_background_dark = "#bb9af7"
+let g:widget_mode_select_background_dark = "#bb9af7"
+let g:widget_mode_replace_background_dark = "#f7768e"
+let g:widget_mode_command_background_dark = "#e0af68"
+let g:widget_mode_normal_foreground_dark = "#1d202f"
+let g:widget_mode_insert_foreground_dark = "#1d202f"
+let g:widget_mode_visual_foreground_dark = "#1d202f"
+let g:widget_mode_select_foreground_dark = "#1d202f"
+let g:widget_mode_replace_foreground_dark = "#1d202f"
+let g:widget_mode_command_foreground_dark = "#1d202f"
